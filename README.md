@@ -53,7 +53,7 @@ var output = definedKeysOnly(someInput, true);
 
 ## API
 
-### definedKeysOnly(input: object, [deep: boolean])
+### `definedKeysOnly(input: object, [deep: boolean])`
 
 Returns a new object with the same properties as the `input` object, with
 the exception of any properties with a value of `undefined`.
